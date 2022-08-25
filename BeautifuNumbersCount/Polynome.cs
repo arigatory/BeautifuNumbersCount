@@ -1,5 +1,6 @@
 ﻿namespace BeautifuNumbersCount;
 
+// Ordinary generating function (OGF)
 public class OGF
 {
     private int[] Coefficients;
