@@ -26,14 +26,14 @@ public class OGF
         return new OGF(coefficients);
     }
 
-    public long SumOfSquareCoefficients
+    public UInt64 SumOfSquareCoefficients
     {
         get
         {
-            long result = 0;
+            UInt64 result = 0;
             foreach (int coefficient in Coefficients)
             {
-                result += coefficient * coefficient;
+                result += (UInt64)coefficient * (UInt64)coefficient;
             }
 
             return result;
